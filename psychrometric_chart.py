@@ -119,7 +119,7 @@ def generate_psychrometric_chart(df,show_design_zone):
         xanchor = 'center'),
         xaxis_title='Dry-Bulb Temperature (°C)',
         yaxis_title='Humidity Ratio (g/kg)',
-        xaxis=dict(range=[T_db_min, T_db_max], showgrid=True, gridwidth=1, gridcolor='LightGray', dtick=5),
+        xaxis=dict(range=[T_db_min, T_db_max], showgrid=True, gridwidth=1, gridcolor='LightGray', dtick=1),
         yaxis=dict(range=[0, 45], side='right', showgrid=True, gridwidth=1, gridcolor='LightGray', dtick=5),
         legend=dict(
             x=0.01,  # Near the left edge
