@@ -160,7 +160,7 @@ def main():
         if 'Temperature' in df.columns and 'Humidity' in df.columns:
             # Generate and display the chart
             fig = generate_psychrometric_chart(df, st.session_state.show_design_zone)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=False)
 
             show_design_zone = st.toggle("Show Design Zone")
 
