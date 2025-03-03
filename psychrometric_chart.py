@@ -132,7 +132,7 @@ def generate_psychrometric_chart(df,show_design_zone):
         ),
         hovermode='closest',
         template='plotly_white',
-        width=1000,  # Increased width for better aspect ratio
+        width=1200,  # Increased width for better aspect ratio
         height=800,  # Adjusted height for better aspect ratio
         margin=dict(l=50, r=50, t=100, b=50),
         plot_bgcolor='white',
